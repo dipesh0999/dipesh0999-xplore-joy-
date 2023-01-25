@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.head-navigation-bar{
+    padding-top: 14px;
+    padding-bottom: 4px;
+    margin-bottom: 3px;
+}
+.head-navigations{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mob-menu{
+    display: none;
+}
+.bookings{
+    background: rgba(229, 229, 229, .4);
+    padding: 50px 0px 250px;
+}
+.booking{
+    width: 1300px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.booked{
+    width: 616px;
+    text-align: center;
+}
+.congrats{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #F04E6C;
+    margin-bottom: 10px;
+}
+.booking-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #667C8A;
+}
+.receipts{
+    width: 510px;
+    margin: 0px auto;
+}
+.receipt-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #667C8A;
+    margin-bottom: 23px;
+    text-align: center;
+}
+.receipt-text span {
+    color: #F04E6C;
+}
+.booked-ticket{
+    width: 400px;
+    margin: 0px auto 30px;
+    padding: 20px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 11, 113, 0.1);
+    box-shadow: 0px 5px 10px rgba(97, 112, 255, 0.05);
+    border-radius: 6px;
+}
+.ticket-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.ticket-text .ticket-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #000B71;
+}
+.ticket-text .ticket-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #667C8A;
+}
+.date{
+    background-color: #F2F2F2;
+    border-radius: 6px;
+    padding: 11px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date-text, .time-text, .duration-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #667C8A;
+    margin-bottom: 4px;
+}
+.date-text-2, .time-text-2, .duration-text-2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: #010B19;
+}
+.dashboard{
+    text-align: center;
+}
+.dashboard-link{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000B71;
+}
+
+@media screen and (max-width:499px) {
+    .head-navigation-bar{
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    .head-navigations{
+        width: 100%;
+    }
+    .mob-menu{
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+    .nav-logo{
+        display: none;
+    }
+    .booking{
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .booked{
+        width: 100%;
+    }
+    .bookings{
+        padding: 50px 0px;
+    }
+    .congrats{
+        font-size: 24px;
+    }
+    .booking-text{
+        display: none;
+    }
+    .receipts{
+        width: 100%;
+    }
+    .receipt-text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .booked-ticket{
+        width: 100%;
+        padding: 10px;
+    }
+    .ticket-flex{
+        gap: 5px;
+    }
+    .doodle-img{
+        width: 60px;
+        height: 60px;
+    }
+    .ticket-text .ticket-title{
+        font-size: 15px;
+        margin-bottom: 4px;
+    }
+    .ticket-text .ticket-name{
+        font-size: 14px;
+    }
+}
