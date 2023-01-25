@@ -89,7 +89,7 @@
     color: #000B71;
 }
 #desk-check:checked ~ .nav-menu{
-    top: 100px;
+    top: 120px;
 }
 #desk-check{
     display: none;
