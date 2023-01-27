@@ -311,7 +311,7 @@
 }
 
 @media screen and (max-width:499px) {
-    .desktop-navigation{
+    .desktop-navigations{
         display: none;
     }
     .head-navigation-bar{
