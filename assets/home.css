@@ -75,9 +75,8 @@
         position: absolute;
         width: 120px;
         height: 120px;
-        right: 30px;
+        right: 105px;
         padding: 20px;
-        margin-right: 80px;
         top: -120px;
         transition: all .9s;
         gap: 10px;
