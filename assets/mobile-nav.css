@@ -81,4 +81,18 @@
     #check:checked ~ .mobile-navigations{
         left: 0;
     }
+    #check:checked ~ .mobile-navigations a::nth-child(odd){
+        animation: odd 2s;
+    }
+    @keyframes odd {
+        from {left: -100%;}
+        to {right: 100%;}
+    }
+    #check:checked ~ .mobile-navigations a::nth-child(even){
+        animation: even 2s;
+    }
+    @keyframes even {
+        from {right: -100%;}
+        to {left: 100%;}
+    }
 }
