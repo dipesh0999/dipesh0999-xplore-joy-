@@ -78,6 +78,12 @@
         font-size: 20px;
         font-weight: bold;
     }
+    .mobile-navigations a::nth-child(odd){
+        left:-100%;
+    }
+    .mobile-navigations a::nth-child(even){
+        left:-100%;
+    }
     #check:checked ~ .mobile-navigations{
         left: 0;
     }
@@ -86,13 +92,13 @@
     }
     @keyframes odd {
         from {left: -100%;}
-        to {right: 100%;}
+        to {left: 0;}
     }
     #check:checked ~ .mobile-navigations a::nth-child(even){
         animation: even 2s;
     }
     @keyframes even {
         from {right: -100%;}
-        to {left: 100%;}
+        to {right: 0;}
     }
 }
