@@ -80,9 +80,11 @@
     }
     .mobile-navigations a::nth-child(odd){
         left:-100%;
+        position: absolute;
     }
     .mobile-navigations a::nth-child(even){
         left:-100%;
+        position: absolute;
     }
     #check:checked ~ .mobile-navigations{
         left: 0;
